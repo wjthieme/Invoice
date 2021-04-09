@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "693E6EF2-B560-48C5-BF31-ECCFF3219D9C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CE96DCA-0448-4CA1-B1CE-79C1C50E9F2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "selectDate(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D59ED980-323C-4AEA-A3AE-2E1BAE04D492"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "parseDate(from:original:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D59ED980-323C-4AEA-A3AE-2E1BAE04D492 - f05258c0f41b1f6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Invoice.InvoiceService.(parseDate in _4DA488EF8EF21B079F3FCA66F18C14EA)(from: __C.NSTextCheckingResult, original: Swift.String) -&gt; Swift.Optional&lt;Foundation.Date&gt;"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1069">
+               </Location>
+               <Location
+                  uuid = "D59ED980-323C-4AEA-A3AE-2E1BAE04D492 - b597e880f36c167a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Range&lt;Swift.String.Index&gt;) -&gt; Swift.String in static Invoice.InvoiceService.(parseDate in _4DA488EF8EF21B079F3FCA66F18C14EA)(from: __C.NSTextCheckingResult, original: Swift.String) -&gt; Swift.Optional&lt;Foundation.Date&gt;"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7925305-17E3-4FBD-8D46-E117D4F08BBD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "parseDate(from:original:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19770D83-A376-4A10-BE75-05DC39A6D6A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "parseMoney(from:original:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4C6B163-CA3C-419F-8C72-00D866C01E77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "parseMoney(from:original:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E4C6B163-CA3C-419F-8C72-00D866C01E77 - fd4c6e3d33565cf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Invoice.InvoiceService.(parseMoney in _4DA488EF8EF21B079F3FCA66F18C14EA)(from: __C.NSTextCheckingResult, original: Swift.String) -&gt; Swift.Optional&lt;Invoice.Money&gt;"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "E4C6B163-CA3C-419F-8C72-00D866C01E77 - 1e4c45b52245037c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Range&lt;Swift.String.Index&gt;) -&gt; Swift.String in static Invoice.InvoiceService.(parseMoney in _4DA488EF8EF21B079F3FCA66F18C14EA)(from: __C.NSTextCheckingResult, original: Swift.String) -&gt; Swift.Optional&lt;Invoice.Money&gt;"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B40770F0-A659-4437-8C18-67A85DFB7A13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "selectAmount(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B40770F0-A659-4437-8C18-67A85DFB7A13 - bc602f89d1c99c19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Invoice.InvoiceService.(selectAmount in _4DA488EF8EF21B079F3FCA66F18C14EA)(from: Swift.String) -&gt; Invoice.Money"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "490">
+               </Location>
+               <Location
+                  uuid = "B40770F0-A659-4437-8C18-67A85DFB7A13 - 8e20e6f1f9ec17d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSTextCheckingResult) -&gt; Swift.Optional&lt;Invoice.Money&gt; in static Invoice.InvoiceService.(selectAmount in _4DA488EF8EF21B079F3FCA66F18C14EA)(from: Swift.String) -&gt; Invoice.Money"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85C78675-BC45-4209-B0ED-488602D3B07B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "selectAmount(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "85C78675-BC45-4209-B0ED-488602D3B07B - bc602f89d1c99c19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Invoice.InvoiceService.(selectAmount in _4DA488EF8EF21B079F3FCA66F18C14EA)(from: Swift.String) -&gt; Invoice.Money"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "775">
+               </Location>
+               <Location
+                  uuid = "85C78675-BC45-4209-B0ED-488602D3B07B - c7b3070879493598"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Invoice.Money, Invoice.Money) -&gt; Swift.Bool in static Invoice.InvoiceService.(selectAmount in _4DA488EF8EF21B079F3FCA66F18C14EA)(from: Swift.String) -&gt; Invoice.Money"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17088180-2726-4FBC-AD70-11B6C680B45F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "parseMoney(from:original:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "230D4F13-0DBA-49A3-9DE4-70D804CB7CDD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Controllers/OverviewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4030D4AD-D4A0-457B-930D-193695E9D98D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E39A245D-20E5-4C0E-A982-CA1EC977EBB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Controllers/DetailController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "594CCA9A-95EA-4C1D-85B2-2E9F23E78B53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Controllers/DetailController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03DC6F38-0884-4A90-B150-5B3F70C1B545"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Controllers/DetailController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29754246-6875-4E0A-9A7F-4CCC9D9F7C84"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Controllers/DetailController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D8BCC0A-954A-44D4-8899-A9CA84900AB0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Controllers/DetailController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "872B149D-133E-4AF0-B83C-575118A562C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9561869C-1BEC-40A6-8BD6-AAA860E3F36C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20F87C4E-8AED-49D8-977D-50CD22E4DFC0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EEA73AE-A821-495E-8525-A06866C27406"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9D21F06-A846-49B3-82B4-FE3C99FB595A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F9D61DA-D6C9-47D2-A01C-164621AB776D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32E6206C-C21E-4883-9524-5CF3418528C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36AD8746-C829-4D4A-9C1C-1F628E1C5D72"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A667718D-0B4E-4976-A8E9-E6EEFF295B73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DE65D0C-2CDB-4367-A959-7FD1D7808632"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "perform()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DE65D0C-2CDB-4367-A959-7FD1D7808632 - 68534237f2de8ff3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Invoice.InvoiceRecognizer.(perform in _DA85C73C25FBB7C4EB15B478F7E20131)() -&gt; ()"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceRecognizer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "3448">
+               </Location>
+               <Location
+                  uuid = "0DE65D0C-2CDB-4367-A959-7FD1D7808632 - 326f8c4323d1663d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; () in Invoice.InvoiceRecognizer.(perform in _DA85C73C25FBB7C4EB15B478F7E20131)() -&gt; ()"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceRecognizer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1C630CE-70C6-4DD3-9424-6F7B351AFEFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "421A2553-F2BD-4AF6-A52D-6818B3C5E375"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "324CC124-5C64-4C54-A27D-A48722A71074"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Services/InvoiceRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "getPotentialAmounts(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "324CC124-5C64-4C54-A27D-A48722A71074 - f3151b8713b90274"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Invoice.InvoiceRecognizer.(getPotentialAmounts in _DA85C73C25FBB7C4EB15B478F7E20131)(from: __C.FIRVisionText) -&gt; Swift.Array&lt;Invoice.BoundingBox&lt;Invoice.Money&gt;&gt;"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceRecognizer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "680">
+               </Location>
+               <Location
+                  uuid = "324CC124-5C64-4C54-A27D-A48722A71074 - adfb9db3e37ecd8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRVisionTextLine) -&gt; Swift.Optional&lt;(__C.FIRVisionTextLine, Swift.Optional&lt;Invoice.Money&gt;)&gt; in Invoice.InvoiceRecognizer.(getPotentialAmounts in _DA85C73C25FBB7C4EB15B478F7E20131)(from: __C.FIRVisionText) -&gt; Swift.Array&lt;Invoice.BoundingBox&lt;Invoice.Money&gt;&gt;"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceRecognizer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "324CC124-5C64-4C54-A27D-A48722A71074 - c5c2e90c9e7dc963"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 ((__C.FIRVisionTextLine, Swift.Optional&lt;Invoice.Money&gt;)) -&gt; Swift.Bool in Invoice.InvoiceRecognizer.(getPotentialAmounts in _DA85C73C25FBB7C4EB15B478F7E20131)(from: __C.FIRVisionText) -&gt; Swift.Array&lt;Invoice.BoundingBox&lt;Invoice.Money&gt;&gt;"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Services/InvoiceRecognizer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD51E81A-404F-483A-90CA-90AC73457176"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Controllers/DetailController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "BD51E81A-404F-483A-90CA-90AC73457176 - a6ffb9534c18425e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Invoice.DetailController.(squareButtonPressed in _F887C655A414352B2714590368F512C5)(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Controllers/DetailController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "BD51E81A-404F-483A-90CA-90AC73457176 - a6ffb9534c18425e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Invoice.DetailController.(squareButtonPressed in _F887C655A414352B2714590368F512C5)(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Controllers/DetailController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "1264">
+               </Location>
+               <Location
+                  uuid = "BD51E81A-404F-483A-90CA-90AC73457176 - a6ffb9534c18425e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Invoice.DetailController.(squareButtonPressed in _F887C655A414352B2714590368F512C5)(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "Invoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice/Invoice/Controllers/DetailController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "2380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9122272E-DC42-4F07-AEAD-7D8008990221"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice/Controllers/DetailController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

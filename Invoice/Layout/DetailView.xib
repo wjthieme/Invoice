@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailController" customModule="Invoice" customModuleProvider="target">
+            <connections>
+                <outlet property="amountButton" destination="aI9-oK-cgq" id="jCt-X6-NCb"/>
+                <outlet property="dateButton" destination="xYE-PT-mRN" id="AO6-Ne-VMd"/>
+                <outlet property="imageView" destination="MHx-dc-Cq1" id="Sar-iA-Afg"/>
+                <outlet property="scrollView" destination="shq-Es-JPO" id="tQN-zM-T6R"/>
+                <outlet property="titleButton" destination="Gh9-32-DrL" id="PEf-iB-g1p"/>
+                <outlet property="view" destination="iN0-l3-epB" id="dh2-0k-4zC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1IB-Hl-f9g" userLabel="BarView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+                    <color key="backgroundColor" name="tint"/>
+                </view>
+                <button opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gh9-32-DrL" userLabel="TitleButton">
+                    <rect key="frame" x="186.5" y="52" width="41" height="28"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <state key="normal" title="Title">
+                        <color key="titleColor" name="back"/>
+                    </state>
+                    <connections>
+                        <action selector="labelButtonPressedWithSender:" destination="-1" eventType="touchUpInside" id="rqT-gH-hZs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpK-yl-30T" userLabel="BackButton">
+                    <rect key="frame" x="0.0" y="44" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OpK-yl-30T" secondAttribute="height" id="fln-No-DRe"/>
+                    </constraints>
+                    <color key="tintColor" name="back"/>
+                    <state key="normal" image="chevron.left" catalog="system">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="bold"/>
+                    </state>
+                    <connections>
+                        <action selector="backPressed" destination="-1" eventType="touchUpInside" id="PtD-NA-hDu"/>
+                    </connections>
+                </button>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.80000000000000004" maximumZoomScale="3" translatesAutoresizingMaskIntoConstraints="NO" id="shq-Es-JPO">
+                    <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MHx-dc-Cq1" userLabel="ImageView">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="MHx-dc-Cq1" firstAttribute="trailing" secondItem="fDm-DJ-a08" secondAttribute="trailing" id="2cs-ux-HgD"/>
+                        <constraint firstItem="MHx-dc-Cq1" firstAttribute="top" secondItem="fDm-DJ-a08" secondAttribute="top" id="PEm-wc-axd"/>
+                        <constraint firstItem="fDm-DJ-a08" firstAttribute="bottom" secondItem="MHx-dc-Cq1" secondAttribute="bottom" id="aV6-At-zRa"/>
+                        <constraint firstItem="MHx-dc-Cq1" firstAttribute="leading" secondItem="fDm-DJ-a08" secondAttribute="leading" id="rnD-Vl-rDA"/>
+                        <constraint firstItem="MHx-dc-Cq1" firstAttribute="width" secondItem="shq-Es-JPO" secondAttribute="width" id="ult-uh-2yK"/>
+                        <constraint firstItem="MHx-dc-Cq1" firstAttribute="height" secondItem="shq-Es-JPO" secondAttribute="height" id="wWk-p7-0JJ"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="fDm-DJ-a08"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="0Xp-gF-FwY"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="TK3-K6-ZRP"/>
+                    </connections>
+                </scrollView>
+                <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0aK-nB-LCx" userLabel="OverlayView">
+                    <rect key="frame" x="0.0" y="88" width="414" height="65"/>
+                    <color key="backgroundColor" name="fore"/>
+                </view>
+                <button opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYE-PT-mRN" userLabel="DateButton">
+                    <rect key="frame" x="16" y="104" width="77" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="01/01/202">
+                        <color key="titleColor" name="back"/>
+                    </state>
+                    <connections>
+                        <action selector="labelButtonPressedWithSender:" destination="-1" eventType="touchUpInside" id="KKL-pR-e56"/>
+                    </connections>
+                </button>
+                <button opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aI9-oK-cgq" userLabel="AmountButton">
+                    <rect key="frame" x="348" y="104" width="50" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="$ 0.00">
+                        <color key="titleColor" name="back"/>
+                    </state>
+                    <connections>
+                        <action selector="labelButtonPressedWithSender:" destination="-1" eventType="touchUpInside" id="cnb-hm-R3I"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" name="back"/>
+            <constraints>
+                <constraint firstItem="aI9-oK-cgq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xYE-PT-mRN" secondAttribute="trailing" constant="16" id="0j7-48-6GU"/>
+                <constraint firstItem="0aK-nB-LCx" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="153-Xj-UYh"/>
+                <constraint firstItem="0aK-nB-LCx" firstAttribute="bottom" secondItem="xYE-PT-mRN" secondAttribute="bottom" constant="16" id="2nU-nQ-k9j"/>
+                <constraint firstAttribute="bottom" secondItem="shq-Es-JPO" secondAttribute="bottom" id="46k-sx-H8v"/>
+                <constraint firstItem="OpK-yl-30T" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="4cw-hm-flB"/>
+                <constraint firstItem="1IB-Hl-f9g" firstAttribute="bottom" secondItem="Gh9-32-DrL" secondAttribute="bottom" constant="8" id="7ZD-tW-LDs"/>
+                <constraint firstItem="aI9-oK-cgq" firstAttribute="top" secondItem="1IB-Hl-f9g" secondAttribute="bottom" constant="16" id="9L3-Kf-jsm"/>
+                <constraint firstAttribute="trailing" secondItem="shq-Es-JPO" secondAttribute="trailing" id="Aq5-1G-w2M"/>
+                <constraint firstItem="1IB-Hl-f9g" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="BxE-hw-Z0E"/>
+                <constraint firstItem="xYE-PT-mRN" firstAttribute="top" secondItem="1IB-Hl-f9g" secondAttribute="bottom" constant="16" id="HG8-yG-41U"/>
+                <constraint firstItem="1IB-Hl-f9g" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HPk-pz-Ua8"/>
+                <constraint firstItem="xYE-PT-mRN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Hy0-zp-N5I"/>
+                <constraint firstItem="0aK-nB-LCx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Jxn-Mo-hHt"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aI9-oK-cgq" secondAttribute="trailing" constant="16" id="WF4-Mn-17P"/>
+                <constraint firstItem="OpK-yl-30T" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YNo-EJ-tVU"/>
+                <constraint firstItem="shq-Es-JPO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Zbk-Jw-iVd"/>
+                <constraint firstItem="Gh9-32-DrL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bBp-fs-WRx"/>
+                <constraint firstItem="1IB-Hl-f9g" firstAttribute="bottom" secondItem="OpK-yl-30T" secondAttribute="bottom" id="bfm-la-uFm"/>
+                <constraint firstItem="0aK-nB-LCx" firstAttribute="bottom" secondItem="aI9-oK-cgq" secondAttribute="bottom" constant="16" id="crZ-eq-u3e"/>
+                <constraint firstItem="shq-Es-JPO" firstAttribute="top" secondItem="1IB-Hl-f9g" secondAttribute="bottom" id="dQg-3x-7Kz"/>
+                <constraint firstItem="Gh9-32-DrL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="f0b-E0-Slt"/>
+                <constraint firstItem="1IB-Hl-f9g" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hhV-BX-AcW"/>
+                <constraint firstItem="0aK-nB-LCx" firstAttribute="top" secondItem="1IB-Hl-f9g" secondAttribute="bottom" id="rmX-Uv-tQL"/>
+                <constraint firstItem="1IB-Hl-f9g" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="top" constant="44" id="wTn-QV-F3A"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea" userLabel="SafeArea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="120.53571428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.left" catalog="system" width="96" height="128"/>
+        <namedColor name="back">
+            <color red="0.92156862745098034" green="0.92156862745098034" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="fore">
+            <color red="0.14117647058823529" green="0.14117647058823529" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tint">
+            <color red="0.3843137254901961" green="0.61568627450980395" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OverviewController" customModule="Invoice" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="J8H-CI-GJS" id="L2g-Fi-hGW"/>
+                <outlet property="titleLabel" destination="uX7-RG-ncf" id="H1y-22-7nY"/>
+                <outlet property="totalLabel" destination="eCJ-19-ueF" id="aJZ-xj-wU1"/>
+                <outlet property="view" destination="iN0-l3-epB" id="kvt-30-jx4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Fr-4i-dOK" userLabel="BarView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+                    <color key="backgroundColor" name="tint"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvK-R1-oys" userLabel="ShareButton">
+                    <rect key="frame" x="370" y="44" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="WvK-R1-oys" secondAttribute="height" id="9jR-K3-hGe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="tintColor" name="back"/>
+                    <state key="normal" image="square.and.arrow.up" catalog="system">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="bold"/>
+                    </state>
+                    <connections>
+                        <action selector="sharePressed" destination="-1" eventType="touchUpInside" id="FWR-02-393"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uX7-RG-ncf" userLabel="TitleLabel">
+                    <rect key="frame" x="182" y="52" width="50" height="28"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <color key="textColor" name="back"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouI-Rz-cNH" userLabel="BackButton">
+                    <rect key="frame" x="0.0" y="44" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ouI-Rz-cNH" secondAttribute="height" id="pdT-Qd-AE1"/>
+                    </constraints>
+                    <color key="tintColor" name="back"/>
+                    <state key="normal" image="chevron.left" catalog="system">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="bold"/>
+                    </state>
+                    <connections>
+                        <action selector="backPressed" destination="-1" eventType="touchUpInside" id="o5W-tY-PQe"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="J8H-CI-GJS" userLabel="TableView">
+                    <rect key="frame" x="0.0" y="88" width="414" height="700"/>
+                    <color key="backgroundColor" name="back"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="0Xd-5s-lmr"/>
+                        <outlet property="delegate" destination="-1" id="vYu-UU-hzH"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRP-4k-hUA" userLabel="TotalTitleLabel">
+                    <rect key="frame" x="357.5" y="804" width="40.5" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" name="fore"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCJ-19-ueF" userLabel="TotalLabel">
+                    <rect key="frame" x="348.5" y="825" width="49.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="fore"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" name="back"/>
+            <constraints>
+                <constraint firstItem="4Fr-4i-dOK" firstAttribute="bottom" secondItem="uX7-RG-ncf" secondAttribute="bottom" constant="8" id="007-tq-Bc5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4Fr-4i-dOK" secondAttribute="trailing" id="35s-6i-Bub"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="eCJ-19-ueF" secondAttribute="trailing" constant="16" id="4Mb-N7-Nxe"/>
+                <constraint firstItem="J8H-CI-GJS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7nG-M8-wT4"/>
+                <constraint firstItem="4Fr-4i-dOK" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="top" constant="44" id="ILj-rQ-3Bf"/>
+                <constraint firstItem="4Fr-4i-dOK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="S1m-gc-8NJ"/>
+                <constraint firstItem="4Fr-4i-dOK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YA1-vp-y09"/>
+                <constraint firstItem="WvK-R1-oys" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Zni-lJ-ebL"/>
+                <constraint firstItem="4Fr-4i-dOK" firstAttribute="bottom" secondItem="WvK-R1-oys" secondAttribute="bottom" id="bMA-Cv-krf"/>
+                <constraint firstItem="4Fr-4i-dOK" firstAttribute="bottom" secondItem="ouI-Rz-cNH" secondAttribute="bottom" id="cMq-8n-105"/>
+                <constraint firstAttribute="trailing" secondItem="J8H-CI-GJS" secondAttribute="trailing" id="eFM-jb-rMv"/>
+                <constraint firstItem="IRP-4k-hUA" firstAttribute="top" secondItem="J8H-CI-GJS" secondAttribute="bottom" constant="16" id="fHO-pg-yVC"/>
+                <constraint firstItem="eCJ-19-ueF" firstAttribute="top" secondItem="IRP-4k-hUA" secondAttribute="bottom" id="grx-ym-cLS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="eCJ-19-ueF" secondAttribute="bottom" constant="16" id="hF9-0u-Uis"/>
+                <constraint firstItem="uX7-RG-ncf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jXc-WE-wCF"/>
+                <constraint firstItem="J8H-CI-GJS" firstAttribute="top" secondItem="4Fr-4i-dOK" secondAttribute="bottom" id="mLa-bw-Mil"/>
+                <constraint firstItem="uX7-RG-ncf" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="rWw-6h-JOd"/>
+                <constraint firstItem="ouI-Rz-cNH" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="vLE-mk-A14"/>
+                <constraint firstItem="WvK-R1-oys" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="xFS-oY-5ik"/>
+                <constraint firstItem="ouI-Rz-cNH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zRe-Pa-7mi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IRP-4k-hUA" secondAttribute="trailing" constant="16" id="zmi-X6-B9j"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea" userLabel="SafeArea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="121.875"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.left" catalog="system" width="96" height="128"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <namedColor name="back">
+            <color red="0.92156862745098034" green="0.92156862745098034" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="fore">
+            <color red="0.14117647058823529" green="0.14117647058823529" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tint">
+            <color red="0.3843137254901961" green="0.61568627450980395" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

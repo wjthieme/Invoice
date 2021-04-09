@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingController" customModule="Invoice" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="XeJ-mw-7HR" id="dmf-MC-ihR"/>
+                <outlet property="loader" destination="536-mV-6DR" id="klj-Im-bxK"/>
+                <outlet property="loaderText" destination="EZc-EH-Yzz" id="jph-Xb-nnI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="114-bI-Vab"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="536-mV-6DR" userLabel="Loader">
+                    <rect key="frame" x="0.0" y="265.33333333333337" width="375" height="281.33333333333337"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="536-mV-6DR" secondAttribute="height" multiplier="8:6" id="8Ei-M3-yHc"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Starting invoice recognition." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZc-EH-Yzz" userLabel="LoaderText">
+                    <rect key="frame" x="36" y="572.66666666666663" width="313" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="fore"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XeJ-mw-7HR">
+                    <rect key="frame" x="156" y="727" width="63" height="35"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <color key="tintColor" name="tint"/>
+                    <state key="normal" title="Cancel"/>
+                    <connections>
+                        <action selector="cancelPressed" destination="-1" eventType="touchUpInside" id="gm0-OH-0ck"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" name="back"/>
+            <constraints>
+                <constraint firstItem="EZc-EH-Yzz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="36" id="2dD-P2-jIP"/>
+                <constraint firstItem="536-mV-6DR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="RfI-NN-uEv"/>
+                <constraint firstItem="536-mV-6DR" firstAttribute="width" secondItem="vUN-kp-3ea" secondAttribute="width" id="VRx-xd-qOO"/>
+                <constraint firstItem="XeJ-mw-7HR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="aN5-LB-Ris"/>
+                <constraint firstItem="EZc-EH-Yzz" firstAttribute="top" secondItem="536-mV-6DR" secondAttribute="bottom" constant="26" id="aWU-TF-et3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="EZc-EH-Yzz" secondAttribute="trailing" constant="26" id="ehr-mQ-Jk3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="XeJ-mw-7HR" secondAttribute="bottom" constant="16" id="vlE-fr-wis"/>
+                <constraint firstItem="536-mV-6DR" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="zvs-P6-83l"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea" userLabel="SafeArea"/>
+            <point key="canvasLocation" x="139" y="122"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="back">
+            <color red="0.92156862745098034" green="0.92156862745098034" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="fore">
+            <color red="0.14117647058823529" green="0.14117647058823529" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tint">
+            <color red="0.3843137254901961" green="0.61568627450980395" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

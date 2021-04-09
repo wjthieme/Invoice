@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D226E7C1-D4B7-4F28-9768-21AE9C67CD18"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E4B6CC3-59A5-4EA4-AD88-4B3CAF9B8747"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice Scanner/Controllers/AlertController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "AlertController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5E4B6CC3-59A5-4EA4-AD88-4B3CAF9B8747 - eaf9f8a23e4ffd4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of Invoice_Scanner.AlertController.init(title: Swift.String, message: Swift.Optional&lt;Swift.String&gt;, primary: Swift.String, secondary: Swift.Optional&lt;Swift.String&gt;) -&gt; Invoice_Scanner.AlertController"
+                  moduleName = "Invoice Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice%20Scanner/Invoice%20Scanner/Controllers/AlertController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "5E4B6CC3-59A5-4EA4-AD88-4B3CAF9B8747 - bf93970c43c49949"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 3 of Invoice_Scanner.AlertController.init(title: Swift.String, message: Swift.Optional&lt;Swift.String&gt;, primary: Swift.String, secondary: Swift.Optional&lt;Swift.String&gt;) -&gt; Invoice_Scanner.AlertController"
+                  moduleName = "Invoice Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice%20Scanner/Invoice%20Scanner/Controllers/AlertController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "5E4B6CC3-59A5-4EA4-AD88-4B3CAF9B8747 - ac8537e8b77626cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Invoice_Scanner.AlertController.__allocating_init(title: Swift.String, message: Swift.Optional&lt;Swift.String&gt;, primary: Swift.String, secondary: Swift.Optional&lt;Swift.String&gt;) -&gt; Invoice_Scanner.AlertController"
+                  moduleName = "Invoice Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice%20Scanner/Invoice%20Scanner/Controllers/AlertController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "5E4B6CC3-59A5-4EA4-AD88-4B3CAF9B8747 - 6057c6a3ccd5121e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Invoice_Scanner.AlertController.init(title: Swift.String, message: Swift.Optional&lt;Swift.String&gt;, primary: Swift.String, secondary: Swift.Optional&lt;Swift.String&gt;) -&gt; Invoice_Scanner.AlertController"
+                  moduleName = "Invoice Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilhelm/XcodeProjects/Invoice%20Scanner/Invoice%20Scanner/Controllers/AlertController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "414">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77C074A6-2182-4EDD-A012-2DB6E68AA3A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice Scanner/Controllers/StartController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "documentCameraViewController(_:didFinishWith:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41635D73-7768-4CBC-BB16-034AF8C5942A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Invoice Scanner/Model/DocumentScan.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "init(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

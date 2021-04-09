@@ -1,0 +1,6 @@
+framework module Pods_InvoiceTests {
+  umbrella header "Pods-InvoiceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="118" id="ag2-53-Tmd" userLabel="OverviewTableCell" customClass="OverviewTableCell" customModule="Invoice" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="118"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ag2-53-Tmd" id="Jzf-VX-9EI" userLabel="ContentView">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kO-DI-Xqw" userLabel="TitleLabel">
+                        <rect key="frame" x="16" y="8" width="324.5" height="47"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="09-03-2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owj-m8-bTZ" userLabel="DateLabel">
+                        <rect key="frame" x="16" y="55" width="324.5" height="47"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="249" text="$ 0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Gd-Aw-Z74" userLabel="AmountLabel">
+                        <rect key="frame" x="348.5" y="8" width="49.5" height="91"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="owj-m8-bTZ" firstAttribute="leading" secondItem="Jzf-VX-9EI" secondAttribute="leading" constant="16" id="62Y-yX-0hP"/>
+                    <constraint firstItem="0Gd-Aw-Z74" firstAttribute="leading" secondItem="5kO-DI-Xqw" secondAttribute="trailing" constant="8" id="Acg-yY-gT4"/>
+                    <constraint firstAttribute="right" secondItem="0Gd-Aw-Z74" secondAttribute="right" constant="16" id="Fw4-hg-bn7"/>
+                    <constraint firstItem="0Gd-Aw-Z74" firstAttribute="leading" secondItem="owj-m8-bTZ" secondAttribute="trailing" constant="8" id="JNh-e6-ieO"/>
+                    <constraint firstItem="owj-m8-bTZ" firstAttribute="height" secondItem="5kO-DI-Xqw" secondAttribute="height" id="K41-7r-Pe0"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0Gd-Aw-Z74" secondAttribute="bottom" constant="8" id="LX8-IQ-tf2"/>
+                    <constraint firstItem="5kO-DI-Xqw" firstAttribute="left" secondItem="Jzf-VX-9EI" secondAttribute="left" constant="16" id="NZk-UA-jXV"/>
+                    <constraint firstItem="0Gd-Aw-Z74" firstAttribute="top" secondItem="Jzf-VX-9EI" secondAttribute="top" constant="8" id="OlI-uw-dNP"/>
+                    <constraint firstAttribute="bottom" secondItem="owj-m8-bTZ" secondAttribute="bottom" constant="16" id="ZS3-hW-9Kw"/>
+                    <constraint firstItem="owj-m8-bTZ" firstAttribute="top" secondItem="5kO-DI-Xqw" secondAttribute="bottom" id="iCi-Ca-aMd"/>
+                    <constraint firstItem="5kO-DI-Xqw" firstAttribute="top" secondItem="Jzf-VX-9EI" secondAttribute="top" constant="8" id="yLb-bC-gt3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" name="back"/>
+            <connections>
+                <outlet property="amountLabel" destination="0Gd-Aw-Z74" id="rge-25-ppy"/>
+                <outlet property="dateLabel" destination="owj-m8-bTZ" id="8dy-xJ-5pw"/>
+                <outlet property="titleLabel" destination="5kO-DI-Xqw" id="fOD-Pc-pMG"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="505.58035714285711"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="back">
+            <color red="0.92156862745098034" green="0.92156862745098034" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

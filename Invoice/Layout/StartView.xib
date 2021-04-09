@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartController" customModule="Invoice" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="MGb-4j-lAG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Invoice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXE-kp-QH2">
+                    <rect key="frame" x="168" y="60" width="78" height="27"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                    <color key="textColor" name="fore"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eyN-qQ-FtL" userLabel="ScrollView">
+                    <rect key="frame" x="0.0" y="123" width="414" height="652"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Step 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phH-gr-6PW" userLabel="Step1Title">
+                            <rect key="frame" x="36" y="0.0" width="342" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" name="fore"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wit-fi-Ldj" userLabel="Step1Message">
+                            <rect key="frame" x="36" y="21" width="342" height="72"/>
+                            <string key="text">Select the expense category. This category will be used by the HR department to determine if and against what percentage this expense can be claimed.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" name="fore"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <pickerView contentMode="scaleToFill" verticalCompressionResistancePriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="uJL-pv-0Ee" userLabel="PickerView">
+                            <rect key="frame" x="36" y="101" width="342" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" priority="750" constant="100" id="0jR-70-S4v"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="bi6-XY-OSL"/>
+                                <outlet property="delegate" destination="-1" id="RMq-8Z-vRO"/>
+                            </connections>
+                        </pickerView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Take a picture of each invoice. Make sure to take a single picture of each Invoice where the itemized list is clearly visible." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJX-pl-q2q" userLabel="Step2Message">
+                            <rect key="frame" x="36" y="238" width="342" height="54"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" name="fore"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Step 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2EB-vY-Blf" userLabel="Step3Title">
+                            <rect key="frame" x="36" y="328" width="342" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" name="fore"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkp-Gf-UL6" userLabel="Step3Message">
+                            <rect key="frame" x="36" y="349" width="342" height="54"/>
+                            <string key="text">Check the details of this expense claim and send the claim to the HR department. They will determine if this claim is ellegible for a payout.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" name="fore"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Step 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rH-Jq-4X5" userLabel="Step2Title">
+                            <rect key="frame" x="36" y="217" width="342" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" name="fore"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="wit-fi-Ldj" firstAttribute="leading" secondItem="e95-r2-0S9" secondAttribute="leading" constant="36" id="08k-Gr-Ine"/>
+                        <constraint firstItem="uJL-pv-0Ee" firstAttribute="leading" secondItem="CRL-8Y-nBl" secondAttribute="leading" constant="36" id="4La-If-xUN"/>
+                        <constraint firstItem="tkp-Gf-UL6" firstAttribute="leading" secondItem="e95-r2-0S9" secondAttribute="leading" constant="36" id="8el-Nz-rI4"/>
+                        <constraint firstItem="2EB-vY-Blf" firstAttribute="leading" secondItem="e95-r2-0S9" secondAttribute="leading" constant="36" id="8pI-hS-Afz"/>
+                        <constraint firstItem="e95-r2-0S9" firstAttribute="trailing" secondItem="uJL-pv-0Ee" secondAttribute="trailing" constant="36" id="EAa-qN-rwU"/>
+                        <constraint firstItem="tkp-Gf-UL6" firstAttribute="top" secondItem="2EB-vY-Blf" secondAttribute="bottom" id="KXD-wM-LsX"/>
+                        <constraint firstItem="5rH-Jq-4X5" firstAttribute="leading" secondItem="e95-r2-0S9" secondAttribute="leading" constant="36" id="Kg2-E6-Aa2"/>
+                        <constraint firstItem="uJL-pv-0Ee" firstAttribute="leading" secondItem="e95-r2-0S9" secondAttribute="leading" constant="36" id="NmI-PG-eNq"/>
+                        <constraint firstItem="e95-r2-0S9" firstAttribute="trailing" secondItem="2EB-vY-Blf" secondAttribute="trailing" constant="36" id="OsV-KX-O9f"/>
+                        <constraint firstItem="5rH-Jq-4X5" firstAttribute="top" secondItem="uJL-pv-0Ee" secondAttribute="bottom" constant="16" id="PMP-tJ-6VE"/>
+                        <constraint firstItem="e95-r2-0S9" firstAttribute="trailing" secondItem="BJX-pl-q2q" secondAttribute="trailing" constant="36" id="PaP-cB-Mux"/>
+                        <constraint firstItem="e95-r2-0S9" firstAttribute="trailing" secondItem="phH-gr-6PW" secondAttribute="trailing" constant="36" id="VDI-gd-60i"/>
+                        <constraint firstItem="2EB-vY-Blf" firstAttribute="top" secondItem="BJX-pl-q2q" secondAttribute="bottom" constant="36" id="WJm-tK-SWu"/>
+                        <constraint firstItem="e95-r2-0S9" firstAttribute="trailing" secondItem="tkp-Gf-UL6" secondAttribute="trailing" constant="36" id="WU9-xU-Y2q"/>
+                        <constraint firstItem="e95-r2-0S9" firstAttribute="trailing" secondItem="phH-gr-6PW" secondAttribute="trailing" constant="36" id="X4b-bF-bDq"/>
+                        <constraint firstItem="CRL-8Y-nBl" firstAttribute="trailing" secondItem="uJL-pv-0Ee" secondAttribute="trailing" constant="36" id="Xco-Ik-ijN"/>
+                        <constraint firstItem="BJX-pl-q2q" firstAttribute="top" secondItem="5rH-Jq-4X5" secondAttribute="bottom" id="a9O-wp-HZo"/>
+                        <constraint firstItem="wit-fi-Ldj" firstAttribute="top" secondItem="phH-gr-6PW" secondAttribute="bottom" id="auy-5A-9Ak"/>
+                        <constraint firstItem="e95-r2-0S9" firstAttribute="trailing" secondItem="phH-gr-6PW" secondAttribute="trailing" constant="36" id="dHq-If-fLS"/>
+                        <constraint firstItem="e95-r2-0S9" firstAttribute="trailing" secondItem="wit-fi-Ldj" secondAttribute="trailing" constant="36" id="eNg-dV-7NB"/>
+                        <constraint firstItem="e95-r2-0S9" firstAttribute="trailing" secondItem="5rH-Jq-4X5" secondAttribute="trailing" constant="36" id="fP3-vu-7AG"/>
+                        <constraint firstItem="phH-gr-6PW" firstAttribute="top" secondItem="CRL-8Y-nBl" secondAttribute="top" priority="250" id="lhW-PY-7ne"/>
+                        <constraint firstItem="uJL-pv-0Ee" firstAttribute="top" secondItem="wit-fi-Ldj" secondAttribute="bottom" constant="8" id="rwh-jt-3RG"/>
+                        <constraint firstItem="CRL-8Y-nBl" firstAttribute="bottom" secondItem="tkp-Gf-UL6" secondAttribute="bottom" priority="250" id="tEh-mS-9wG"/>
+                        <constraint firstItem="phH-gr-6PW" firstAttribute="leading" secondItem="e95-r2-0S9" secondAttribute="leading" constant="36" id="td2-sI-exV"/>
+                        <constraint firstItem="tkp-Gf-UL6" firstAttribute="bottom" secondItem="e95-r2-0S9" secondAttribute="bottom" id="ue5-Kl-UK5"/>
+                        <constraint firstItem="phH-gr-6PW" firstAttribute="top" secondItem="e95-r2-0S9" secondAttribute="top" id="wC6-85-YMh"/>
+                        <constraint firstItem="BJX-pl-q2q" firstAttribute="leading" secondItem="e95-r2-0S9" secondAttribute="leading" constant="36" id="xyt-pO-shV"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="e95-r2-0S9" userLabel="ContentGuide"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="CRL-8Y-nBl" userLabel="FrameGuide"/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KY-Ef-WJz">
+                    <rect key="frame" x="158.5" y="791" width="97" height="55"/>
+                    <color key="backgroundColor" name="tint"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                    <color key="tintColor" name="tint"/>
+                    <inset key="contentEdgeInsets" minX="24" minY="16" maxX="24" maxY="16"/>
+                    <state key="normal" title="Start">
+                        <color key="titleColor" name="back"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="startButtonPressed" destination="-1" eventType="touchUpInside" id="O03-og-8WJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" name="back"/>
+            <constraints>
+                <constraint firstItem="eyN-qQ-FtL" firstAttribute="top" secondItem="OXE-kp-QH2" secondAttribute="bottom" constant="36" id="1xA-6p-xH4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="8KY-Ef-WJz" secondAttribute="bottom" constant="16" id="ABF-Ya-QCD"/>
+                <constraint firstItem="8KY-Ef-WJz" firstAttribute="top" secondItem="eyN-qQ-FtL" secondAttribute="bottom" constant="16" id="FM2-Yd-RZ6"/>
+                <constraint firstItem="8KY-Ef-WJz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JZh-3G-kSQ"/>
+                <constraint firstItem="OXE-kp-QH2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="MJR-FB-Y8W"/>
+                <constraint firstItem="OXE-kp-QH2" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="MQA-sk-Dti"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="eyN-qQ-FtL" secondAttribute="trailing" id="YEG-df-jIE"/>
+                <constraint firstItem="eyN-qQ-FtL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="hDD-y6-uIs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea" userLabel="SafeArea"/>
+            <point key="canvasLocation" x="138.40000000000001" y="152.95566502463055"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="back">
+            <color red="0.92156862745098034" green="0.92156862745098034" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="fore">
+            <color red="0.14117647058823529" green="0.14117647058823529" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tint">
+            <color red="0.3843137254901961" green="0.61568627450980395" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  Invoice Scanner
+
+  Created by Wilhelm Thieme on 02/05/2020.
+  Copyright © 2020 Sogeti Nederland B.V. All rights reserved.
+*/
+"ok" = "Ok";
+"yes" = "Yes";
+"no" = "No";
+"cancel" = "Cancel";
+"settings" = "Settings";
+"retry" = "Retry";
+
+"unsupported" = "Unsupported";
+"scannerUnsupported" = "Invoice Scanner is not supported on this device. Please try another device.";
+
+"cameraAuthorization" = "Camera Permission";
+"cameraAuthroizationMessage" = "Invoice Scanner uses the camera to scan invoices.";
+
+"captureFailed" = "Capture Failed";
+"captureFailedMessage" = "Capturing the invoice failed, please try again.";
+
+"parkingExpenseType" = "Parking";
+"hotelExpenseType" = "Hotel";
+"dinnerExpenseType" = "Dinner";
+"travelExpenseType" = "Travel";
+"miscExpenseType" = "Miscellaneous";
+
+
+"recognitionFailed" = "Recogniton Failed";
+"recognitionFailedMessage" = "Recognition failed in one of the images, would you like to try again?";
+
+"recognitionRestart" = "Restarting invoice recognition";
+"recognitionLoader" = "Getting details from invoices (%0/%1).";
+"recognitionCompleted" = "Recognition completed.";
+
+"invoiceTitle" = "Invoice %0";
